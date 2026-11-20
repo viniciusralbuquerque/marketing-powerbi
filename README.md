@@ -5,7 +5,15 @@
 Este projeto foi desenvolvido com o objetivo de analisar o desempenho de campanhas de marketing digital por meio de indicadores e visualizações no Power BI.
 
 O dashboard reúne uma visão executiva dos resultados, permitindo acompanhar investimentos, comparar o desempenho entre plataformas e identificar oportunidades de melhoria.
+## Visualização dos Dashboards
 
+### 1. Visão Geral — Marketing Analytics
+
+![Dashboard Visão Geral](Marketing_Analytics_Visao_Exec.png)
+
+### 2. Análise de Pacing
+
+![Dashboard de Pacing](marketing-analytics-pacing.png)
 ## Objetivos
 
 - Centralizar os principais indicadores de marketing em um único dashboard.
