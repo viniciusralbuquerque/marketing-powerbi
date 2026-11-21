@@ -74,6 +74,34 @@ Os resultados mostram a importância de analisar diferentes indicadores em conju
 
 Além disso, o acompanhamento do Pacing ajuda a identificar desvios e direcionar a atenção às campanhas que precisam de uma análise mais detalhada.
 
+## Metodologia utilizada
+
+O projeto foi desenvolvido no Power BI, passando pelas etapas de preparação, tratamento, modelagem e visualização dos dados.
+
+Utilizei o Power Query para organizar e tratar as informações e medidas em DAX para calcular indicadores e acompanhar os resultados das campanhas.
+
+Os dashboards foram divididos em duas análises principais:
+
+- **Visão Geral:** acompanhamento dos investimentos, impressões, cliques e indicadores de desempenho por plataforma.
+- **Pacing:** comparação entre investimentos planejados e realizados, permitindo identificar campanhas acima ou abaixo do ritmo esperado.
+
+## Oportunidades identificadas
+
+Com base nos resultados, identifiquei alguns pontos que merecem atenção:
+
+- **Eficiência dos investimentos:** O TikTok Ads apresentou os menores custos por clique e por mil impressões, sendo uma oportunidade para investigar o desempenho dessa plataforma em relação aos objetivos das campanhas.
+- **Distribuição do orçamento:** O Meta Ads concentrou a maior parte dos investimentos. É importante avaliar se essa distribuição está alinhada aos resultados esperados de cada canal.
+- **Controle orçamentário:** Das 40 campanhas analisadas no Pacing, 11 apresentaram desvios em relação ao ritmo esperado, sendo 6 abaixo e 5 acima. Essas campanhas merecem acompanhamento para entender as causas dos desvios e avaliar possíveis ajustes.
+
+## Limitações da análise
+
+Embora os indicadores permitam comparar o desempenho das plataformas, métricas como CPC, CPM e CTR não são suficientes para determinar qual canal apresenta o melhor retorno financeiro.
+
+Para uma avaliação mais completa, seria importante considerar também conversões, receita gerada e retorno sobre o investimento.
+
+Dessa forma, o dashboard funciona como uma ferramenta de acompanhamento e apoio à decisão, permitindo identificar tendências e oportunidades que podem ser aprofundadas em novas análises.
+
+
 ## Como visualizar o projeto
 
 O arquivo `Marketing_Analytics.pbix` está disponível neste repositório.
