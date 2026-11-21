@@ -130,8 +130,6 @@ DIVIDE(
 
 O investimento esperado até a data é calculado considerando o orçamento de cada campanha e a proporção de seu período de veiculação transcorrido, utilizando uma distribuição linear do investimento planejado.
 
-Essa lógica permite identificar campanhas abaixo, dentro ou acima do ritmo esperado, conforme os critérios definidos no projeto.
-
 ### Critérios de classificação do Pacing
 
 Para facilitar o acompanhamento da execução orçamentária, desenvolvi uma medida DAX utilizando `SWITCH(TRUE())`, classificando as campanhas conforme o percentual de investimento realizado em relação ao esperado.
