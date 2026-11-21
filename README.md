@@ -85,6 +85,56 @@ Os dashboards foram divididos em duas análises principais:
 - **Visão Geral:** acompanhamento dos investimentos, impressões, cliques e indicadores de desempenho por plataforma.
 - **Pacing:** comparação entre investimentos planejados e realizados, permitindo identificar campanhas acima ou abaixo do ritmo esperado.
 
+  ## Desenvolvimento Técnico
+
+### 1. Tratamento e transformação de dados — Power Query
+
+Utilizei o Power Query para preparar e organizar as bases de dados antes da construção dos dashboards.
+
+Entre as transformações realizadas, destacam-se:
+
+- Tratamento e padronização de campos, incluindo nomes de campanhas.
+- Criação de colunas personalizadas e índices auxiliares.
+- Filtragem de registros e remoção de duplicidades.
+- Mesclagem de consultas para integrar informações das campanhas.
+- Organização dos tipos de dados e das colunas utilizadas nas análises.
+
+### 2. Modelagem de Dados
+
+O modelo foi estruturado utilizando quatro tabelas principais: `Planejado`, `Realizado`, `Realizado_Pacing` e `Calendario`.
+
+Foram criados relacionamentos do tipo um para muitos (1:N), utilizando chaves de identificação dos planos e campos de data.
+
+A tabela Calendario permite realizar análises temporais, enquanto os relacionamentos entre Planejado e Realizado_Pacing possibilitam associar os registros de execução aos respectivos planejamentos.
+
+### 3. Medidas e cálculos DAX
+
+Foram desenvolvidas medidas para calcular indicadores de investimento e acompanhar a execução orçamentária.
+
+**Percentual do Orçamento Consumido**
+
+```dax
+% Orçamento Consumido =
+DIVIDE(
+    [Investimento Realizado Acumulado],
+    [Investimento Planejado]
+)
+```
+
+**Pacing**
+
+```dax
+Pacing % =
+DIVIDE(
+    [Investimento Realizado Acumulado],
+    [Investimento Esperado Até Data]
+)
+```
+
+O investimento esperado até a data é calculado considerando o orçamento de cada campanha e a proporção de seu período de veiculação transcorrido, utilizando uma distribuição linear do investimento planejado.
+
+Essa lógica permite identificar campanhas abaixo, dentro ou acima do ritmo esperado, conforme os critérios definidos no projeto.
+
 ## Oportunidades identificadas
 
 Com base nos resultados, identifiquei alguns pontos que merecem atenção:
