@@ -48,6 +48,14 @@ O dashboard reúne uma visão executiva dos resultados, permitindo acompanhar in
 
 ## Principais análises e insights
 
+### Escopo das análises
+
+A Visão Geral apresenta os investimentos e indicadores de desempenho das campanhas disponíveis na base analisada, totalizando aproximadamente R$ 17,09 milhões.
+
+Já a análise de Pacing possui um recorte específico de campanhas com planejamento orçamentário, acompanhando aproximadamente R$ 1,01 milhão em investimentos planejados e R$ 1,06 milhão realizados.
+
+Por isso, os valores apresentados nas duas páginas possuem abrangências diferentes e não devem ser comparados diretamente.
+
 ### 1. Visão Geral — Marketing Analytics
 
 A análise apresenta um investimento total de aproximadamente R$ 17,09 milhões em campanhas de marketing, distribuídos entre Meta Ads, TikTok Ads e YouTube Ads.
