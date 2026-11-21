@@ -13,7 +13,7 @@ O dashboard reúne uma visão executiva dos resultados, permitindo acompanhar in
 
 ### 2. Análise de Pacing
 
-![Dashboard de Pacing](marketing-analytics-pacing.png)
+![Dashboard de Pacing](marketing-analytics-pacing.png?versao=2)
 ## Objetivos
 
 - Centralizar os principais indicadores de marketing em um único dashboard.
