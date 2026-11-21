@@ -132,6 +132,20 @@ O investimento esperado até a data é calculado considerando o orçamento de ca
 
 Essa lógica permite identificar campanhas abaixo, dentro ou acima do ritmo esperado, conforme os critérios definidos no projeto.
 
+### Critérios de classificação do Pacing
+
+Para facilitar o acompanhamento da execução orçamentária, desenvolvi uma medida DAX utilizando `SWITCH(TRUE())`, classificando as campanhas conforme o percentual de investimento realizado em relação ao esperado.
+
+Foram definidos os seguintes critérios:
+
+- **Abaixo do ritmo:** Pacing inferior a 90%.
+- **No ritmo:** Pacing entre 90% e 110%, incluindo os limites.
+- **Acima do ritmo:** Pacing superior a 110%.
+
+A classificação considera uma margem de tolerância de 10% em relação ao investimento esperado e é atualizada dinamicamente conforme os filtros aplicados no dashboard.
+
+Essa lógica permite identificar campanhas que necessitam de maior atenção e apoiar o acompanhamento da execução dos investimentos.
+
 ## Oportunidades identificadas
 
 Com base nos resultados, identifiquei alguns pontos que merecem atenção:
