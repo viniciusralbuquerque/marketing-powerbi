@@ -93,6 +93,14 @@ Com base nos resultados, identifiquei alguns pontos que merecem atenção:
 - **Distribuição do orçamento:** O Meta Ads concentrou a maior parte dos investimentos. É importante avaliar se essa distribuição está alinhada aos resultados esperados de cada canal.
 - **Controle orçamentário:** Das 40 campanhas analisadas no Pacing, 11 apresentaram desvios em relação ao ritmo esperado, sendo 6 abaixo e 5 acima. Essas campanhas merecem acompanhamento para entender as causas dos desvios e avaliar possíveis ajustes.
 
+## Origem dos Dados
+
+A base de dados utilizada neste projeto foi disponibilizada para fins educacionais, durante uma formação e mentoria em Data Analytics.
+
+O projeto foi desenvolvido com o objetivo de aplicar conhecimentos de tratamento, modelagem, visualização e análise de dados.
+
+As análises, os indicadores e os dashboards apresentados foram desenvolvidos por mim, buscando transformar os dados em informações relevantes para apoiar decisões de negócio.
+
 ## Limitações da análise
 
 Embora os indicadores permitam comparar o desempenho das plataformas, métricas como CPC, CPM e CTR não são suficientes para determinar qual canal apresenta o melhor retorno financeiro.
