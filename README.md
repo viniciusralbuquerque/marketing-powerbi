@@ -46,8 +46,6 @@ O dashboard reúne uma visão executiva dos resultados, permitindo acompanhar in
 
 **DAX:** Criação de medidas e indicadores para análise dos resultados.
 
-## Principais análises
-
 ## Principais análises e insights
 
 ### 1. Visão Geral — Marketing Analytics
