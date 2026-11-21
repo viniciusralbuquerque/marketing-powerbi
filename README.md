@@ -74,17 +74,6 @@ Os resultados mostram a importância de analisar diferentes indicadores em conju
 
 Além disso, o acompanhamento do Pacing ajuda a identificar desvios e direcionar a atenção às campanhas que precisam de uma análise mais detalhada.
 
-## Metodologia utilizada
-
-O projeto foi desenvolvido no Power BI, passando pelas etapas de preparação, tratamento, modelagem e visualização dos dados.
-
-Utilizei o Power Query para organizar e tratar as informações e medidas em DAX para calcular indicadores e acompanhar os resultados das campanhas.
-
-Os dashboards foram divididos em duas análises principais:
-
-- **Visão Geral:** acompanhamento dos investimentos, impressões, cliques e indicadores de desempenho por plataforma.
-- **Pacing:** comparação entre investimentos planejados e realizados, permitindo identificar campanhas acima ou abaixo do ritmo esperado.
-
   ## Desenvolvimento Técnico
 
 ### 1. Tratamento e transformação de dados — Power Query
